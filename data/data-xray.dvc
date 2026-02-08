@@ -1,0 +1,6 @@
+outs:
+- md5: a38ad232ea5a9245ab82220765fd6c6e.dir
+  size: 90702388
+  nfiles: 2028
+  hash: md5
+  path: data-xray
