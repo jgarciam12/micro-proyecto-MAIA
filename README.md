@@ -26,7 +26,7 @@ Construir un **pipeline completo de MLOps** que incluya:
 
 ## 🧠 Descripción del Modelo
 
-El sistema entrenará un modelo de **clasificación multiclase**, el cual recibirá una imagen de columna vertebral y retornará una predicción entre:
+El sistema entrenará un modelo de **clasificación multiclase**, usando CNN el cual recibirá una imagen de columna vertebral y retornará una predicción entre:
 
 * `Healthy`
 * `Scoliosis`
