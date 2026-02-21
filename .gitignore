@@ -1,2 +1,10 @@
 .idea
 .vene
+# Local environment
+.venv/
+
+# macOS
+.DS_Store
+
+# Local datasets
+The vertebrae X-ray images/
