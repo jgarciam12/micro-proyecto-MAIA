@@ -8,3 +8,9 @@
 
 # Local datasets
 The vertebrae X-ray images/
+
+# Legacy duplicate modules (do not commit)
+src/spineclf/data.py
+src/spineclf/model.py
+src/spineclf/train.py
+src/spineclf/eval.py
