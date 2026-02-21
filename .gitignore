@@ -14,3 +14,16 @@ src/spineclf/data.py
 src/spineclf/model.py
 src/spineclf/train.py
 src/spineclf/eval.py
+
+# Training outputs
+artifacts/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Packaging metadata
+*.egg-info/
+
+# Local-only package duplicates (do not commit)
+src/spineclf/
