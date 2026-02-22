@@ -2,6 +2,7 @@
 .vene
 # Local environment
 .venv/
+.venv
 
 # macOS
 .DS_Store

@@ -1,7 +1,7 @@
 from __future__ import annotations
 
-from data.load_data import DatasetConfig, load_train_val_datasets, compute_class_weights
-from data.preprocessing import apply_preprocessing
+from src.data.load_data import DatasetConfig, load_train_val_datasets, compute_class_weights
+from src.data.preprocessing import apply_preprocessing
 
 
 def build_dataloaders(cfg: DatasetConfig):

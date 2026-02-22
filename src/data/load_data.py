@@ -88,6 +88,7 @@ def load_train_val_datasets(cfg: DatasetConfig):
     )
 
     class_names: List[str] = list(train_ds.class_names)
+    print("ORDEN FINAL CLASES:", class_names)
 
     if cfg.cache:
         train_ds = train_ds.cache()
