@@ -7,10 +7,10 @@ import os
 
 import tensorflow as tf
 
-from data.load_data import DatasetConfig
-from data.loader import build_dataloaders
-from training.trainer import train_model
-from evaluation.metrics import compute_metrics
+from src.data.load_data import DatasetConfig
+from src.data.loader import build_dataloaders
+from src.training.trainer import train_model
+from src.evaluation.metrics import compute_metrics
 
 
 def parse_args():
