@@ -1,1 +1,18 @@
 /data-xray
+
+# entornos virtuales
+.venv*/
+venv/
+env/
+
+# jupyter
+**/.ipynb_checkpoints/
+
+# IDEs
+.vscode/
+.idea/
+
+# KerasTuner / artifacts temporales de tuning
+**/kerastuner_dir/
+notebooks/artifacts/
+**/tuner/
