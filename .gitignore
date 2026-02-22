@@ -7,6 +7,16 @@ venv/
 env/
 
 # ==============================
+# PYTHON
+# ==============================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# ==============================
 # JUPYTER
 # ==============================
 **/.ipynb_checkpoints/
@@ -18,12 +28,29 @@ env/
 .vscode/
 
 # ==============================
-# KERAS TUNER / ARCHIVOS TEMPORALES
+# KERAS TUNER / TUNING
 # ==============================
 **/kerastuner_dir/
-notebooks/artifacts/
+**/keras_tuner/
+oracle.json
+trial.json
 
 # ==============================
-# DATA GRANDE (si aplica)
+# PESOS Y CHECKPOINTS
 # ==============================
-/data-xray
+*.h5
+*.keras
+*.ckpt
+checkpoint*
+
+# ==============================
+# MLFLOW
+# ==============================
+mlruns/
+
+# ==============================
+# DATA GRANDE
+# ==============================
+/data-xray/
+*.zip
+*.tar

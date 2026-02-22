@@ -16,3 +16,5 @@ env/
 **/kerastuner_dir/
 notebooks/artifacts/
 **/tuner/
+notebooks/kerastuner_dir/
+*.h5
