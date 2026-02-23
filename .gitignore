@@ -58,6 +58,7 @@ mlruns/
 .vene
 # Local environment
 .venv/
+
 .venv
 
 # macOS
